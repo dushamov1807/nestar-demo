@@ -10,12 +10,17 @@ const Footer = () => {
       <Stack className={"main"}>
         <Stack className={"left"}>
           <Box component={"div"} className={"footer-box"}>
-            <img src="/img/logo/logowhite.svg" alt="" className={"logo"} />
+            <img src="/img/logo/logoWhite.svg" alt="" className={"logo"} />
           </Box>
+
           <Box component={"div"} className={"footer-box"}>
             <span>total free customer care</span>
             <p>+8210 4867 2909</p>
-            <span>Support?</span>
+          </Box>
+          <Box component={"div"} className={"footer-box"}>
+            <span>nee live</span>
+            <p>+8210 4867 2909</p>
+            <span>Support</span>
           </Box>
           <Box component={"div"} className={"footer-box"}>
             <p>follow us on social media</p>
@@ -40,6 +45,15 @@ const Footer = () => {
               <strong>Popular Search</strong>
               <span>Property for Rent</span>
               <span>Property low to hide</span>
+            </div>
+            <div>
+              <strong>Quick Links</strong>
+              <span>Terms of use</span>
+              <span>Privacy Policy</span>
+              <span>Pricing Plans</span>
+              <span>Our Services</span>
+              <span>Contact Support</span>
+              <span>FAQs</span>
             </div>
             <div>
               <strong>Discovery</strong>

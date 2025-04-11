@@ -1,6 +1,5 @@
 import { Stack } from "@mui/material";
 import Head from "next/head";
-import { Component } from "react";
 import Top from "./Top";
 import Footer from "./Footer";
 import HeaderFilter from "./homepage/HeaderFilter";
